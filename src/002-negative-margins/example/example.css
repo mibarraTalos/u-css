@@ -3,3 +3,67 @@
 .trash{
 	color: black;
 }
+
+.nm-wrap {
+  min-height: 100vh;
+  margin-bottom: -164px;
+
+  position: relative;
+  display: block;
+}
+
+.nm-content-wrap {
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+.nm-content {
+  float: left;
+  margin-right: -200px;
+  width: 100%;
+}
+
+.nm-content__article {
+  margin-right: 210px;
+}
+
+.nm-aside {
+  float: right;
+  width: 200px;
+}
+
+.mdl-list {
+  border-left: 2px solid;;
+}
+
+.nm-content-list {
+  background-color: #F5F5F5;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+.nm-content-list > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nm-content-list  > ul li {
+  line-height:1.3em;
+}
+
+.col2 {
+  margin-left:100px;
+}
+
+.col3 {
+  margin-left:200px;
+}
+
+.top {
+  margin-top:-2.6em;
+}
+
+.nm-footer {
+  min-height: 100px;
+  background: lightgray;
+}
