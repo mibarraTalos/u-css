@@ -3,3 +3,88 @@
 .trash{
 	color: black;
 }
+
+.d-wrap {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.d-header {
+  background-color: #E8E8E8;
+  padding-left: 10px;
+}
+
+.d-header h1 {
+  display: inline;
+}
+
+.d-nav {
+  background-color: #DCDCDC;
+}
+
+.d-nav ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px 10px;
+}
+
+.d-nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.d-nav a {
+  text-decoration: none;
+}
+
+.d-content {
+  background-color: #E8E8E8;
+  display: table;
+  margin: 10px 0;
+}
+
+.d-content article {
+  display: table-cell;
+  padding: 10px 10px;
+  text-align: justify;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.d-table {
+  background: #C8C8C8;
+  display: table;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.d-table-row {
+  display: table-row;
+}
+
+.d-table-cell {
+  display: table-cell;
+  border: #f0f0f0 1px solid;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.d-table-header {
+  font-weight: bold;
+}
+
+.d-gallery {
+  background-color: #E8E8E8;
+}
+
+.d-gallery-box {
+  border: 3px solid #73AD21;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+
