@@ -3,3 +3,138 @@
 .trash{
 	color: black;
 }
+
+.c-container {
+  background-color: #E8E8E8;
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: auto;
+}
+ .c-container h5 {
+   background-color: lightgray;
+   line-height: 30px;
+   text-align: center;
+ }
+
+.c-nav {
+  display: inline;
+  text-align: center;
+}
+
+.c-nav ul {
+  background-color: lightgray;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+ .c-nav li {
+   display: inline;
+   list-style: none;
+   padding-right: 10px;
+   text-align: center;
+ }
+
+.c-nav a {
+  text-decoration: none;
+}
+
+.c-first-content {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.c-article {
+  background-color: lightgray;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 20px;
+  padding: 40px 40px;
+  text-align: left;
+  width: 20%;
+}
+
+.c-second-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.c-single-line {
+  background-color: lightgray;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+.c-multiple-lines-vertical {
+  background-color: lightgray;
+  display: table;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.c-multiple-lines-vertical p {
+  display: table-cell;
+  padding: 40px;
+  vertical-align: middle;
+}
+
+.c-multiple-lines-vertical-flex {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: auto;
+  resize: vertical;
+}
+
+.c-multiple-lines-vertical-flex p {
+  padding: 40px;
+}
+
+.c-container-fix-height {
+  background-color: lightgray;
+  height: 300px;
+  margin-bottom: 20px;
+  overflow: auto;
+  position: relative;
+  resize: vertical;
+}
+
+.c-container-fix-height-child {
+  background-color: darkgray;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+}
+
+.c-container-fix-height-child p {
+  padding: 20px;
+}
+
+.c-container-unknown-height {
+  background-color: lightgray;
+  height: 300px;
+  overflow: auto;
+  position: relative;
+  resize: vertical;
+}
+
+.c-container-unknown-height-child {
+  background-color: darkgray;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.c-container-unknown-height-child p {
+  padding: 20px;
+}
+
