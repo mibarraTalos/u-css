@@ -7,12 +7,13 @@
 
 .fp-wrap {
   clear: both;
-  margin: 10px 20px;
+  margin: 10px auto;
+  max-width: 1200px;
 }
 
 .fp-menu {
-  margin: 15px auto;
   height: 30px;
+  padding: 15px;
 }
 
 .fp-menu ul {
@@ -33,16 +34,24 @@
 
 .fp-content {
   clear: both;
+  overflow: auto;
 }
 
 .fp-article-column {
   background: lightgray;
+  box-sizing: border-box;
   float: left;
-  width: calc(50% - 15px);
+  margin: 0;
+  width: 50%;
 }
 
 .fp-article-column:first-child{
-  margin-right: 30px;
+  border-right: solid 15px white;
+}
+
+.fp-article-column:last-child{
+  float: right;
+  border-left: solid 15px white;
 }
 
 .fp-article-column img {
@@ -70,28 +79,20 @@
 }
 
 .fp-gallery-inner {
+  overflow: auto;
   padding: 15px;
 }
 
-.fp-gallery-inner img {
+.fp-gallery-inner li {
+  box-sizing: border-box;
   float: left;
-  margin: 10px 20px;
-  width: calc(100% / 4 - 30px);
+  list-style: none;
+  padding: 10px 20px;
+  width: 25%;
 }
 
-.fp-gallery-inner img:first-child {
-  margin: 10px 20px 10px 0;
+.fp-gallery-inner img {
+  width: 100%;
 }
 
-.fp-gallery-inner img:nth-child(4){
-  margin: 10px 0 10px 20px;
-}
-
-.fp-gallery-inner img:nth-child(5){
-  margin: 10px 20px 10px 0;
-}
-
-.fp-gallery-inner img:nth-child(8){
-  margin: 10px 0 10px 20px;
-}
 
