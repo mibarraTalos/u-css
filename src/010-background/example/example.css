@@ -13,7 +13,7 @@
   );
   height: 100vh;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1220px;
 }
 
 .b-header-wp {
@@ -23,7 +23,14 @@
 
 .b-header-wp h2 {
   color: white;
+  font-size: 3em;
   text-shadow: 4px -4px 1px black;
+}
+
+.b-header-wp h3 {
+  color: white;
+  font-size: 2em;
+  text-shadow: -3px 3px 1px black;
 }
 
 .b-header-wp span {
@@ -35,31 +42,39 @@
 }
 
 .b-content-box-wp {
-  margin: 60px 0;
+  margin: 90px 0;
+  text-align: center;
 }
 
 .b-content-box {
+  align-items: center;
   background-color: #F5A275;
   border-radius: 150px;
   box-shadow: 3px 3px 3px 1px #D24F2E, inset 2px 2px 7px rgba(255, 255, 255, 0.6), inset -1px -1px 1px rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
   color: white;
   display: inline-flex;
-  justify-content: center;
+  margin: 0 2%;
   padding: 10px;
   vertical-align: middle;
   width: 40%;
+}
+
+.b-content-box:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .b-content-box-img {
   box-sizing: border-box;
   float: left;
   padding: 5px;
-  width: 50%;
+  width: 25%;
 
 }
 
 .b-content-box-img img {
+  border: 3px solid white;
   border-radius: 50%;
   width: 100%;
 }
@@ -67,14 +82,27 @@
 .b-content-box-info {
   box-sizing: border-box;
   float: right;
-  width: 50%;
+  padding-left: 10px;
+  text-align: justify;
+  width: 75%;
 }
 
 .b-content-box-info h1 {
   font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px #333;
+  white-space: nowrap;
 }
 
 .b-content-box-info p {
   font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-shadow: 1px 1px #333;
+  white-space: nowrap;
 }
