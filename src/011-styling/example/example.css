@@ -1,5 +1,143 @@
 /* Practice Layout */
 
-.trash{
-	color: black;
+.trash {
+  color: black;
 }
+
+.page-content {
+  padding: 0;
+}
+
+.s-container {
+  display: block;
+  min-height: 100%;
+  position: relative;
+}
+
+.s-header-bg {
+  background-attachment: fixed;
+  background-image: url("./images/background.jpg");;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.s-header-bg h1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 28px;
+  line-height: 250px;
+  margin: 0;
+  opacity: 0.5;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.s-form-wp {
+  width: 100%;
+}
+
+.s-form-wp form {
+  margin: 20px auto;
+  width: 320px;
+}
+
+.s-input {
+  background-color: #eee;
+  border: 0;
+  box-sizing: border-box;
+  color: #444444;
+  display: block;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.s-input:focus {
+  border: 1px solid darkgray;
+  outline: 0;
+}
+
+.s-button {
+  background-color: #fbc2d4;
+  border: 0;
+  color: #ffffff;
+  font-size: 15px;
+  height: 56px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.s-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #fbc2d4;
+  color: #fbc2d4;
+  cursor: pointer;
+}
+
+.s-label {
+  color: #9b9b9b;
+  text-transform: uppercase;
+}
+
+.s-footer {
+  background-color: #fbc2d4;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.s-box-wp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.s-box {
+  color: #fff;
+  font-size: 15px;
+  margin: 40px;
+  min-width: 250px;
+}
+
+.s-box .title {
+  border-bottom: 1px solid #fff;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.s-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.s-box ul li {
+  padding-bottom: 10px;
+}
+
+.s-box ul li a {
+  color: #fff;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.s-box ul li a:hover {
+  color: #000;
+}
+
+/*********************************/
+/*            DESKTOP            */
+/*********************************/
+@media (min-width: 768px) {
+  .s-form-wp form {
+    width: 500px;
+  }
+}
+
