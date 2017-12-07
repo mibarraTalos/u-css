@@ -6,14 +6,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <!-- Ignore this, it's for the header --> 
+    <!-- Ignore this, it's for the header -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link href="../../app.css" rel="stylesheet" type="text/css">
 
     <!-- Import App Css file -->
     <link href="./example.css" rel="stylesheet" type="text/css">
-    
+
   </head>
   <body>
   	<!-- Always shows a header, even in smaller screens. -->
@@ -32,6 +32,116 @@
       <main class="mdl-layout__content">
         <div class="page-content">
          <!-- Practice Content Goes Here -->
+
+          <section class="c-container">
+
+            <div class="c-tab">
+              <input type="radio" id="tab-1" name="tab-group-1" checked>
+              <label class="c-label" for="tab-1">Checkboxes</label>
+              <div class="c-tab-content">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu magna. Pellentesque sit amet vestibulum ex, eget placerat metus. Sed vel sagittis massa, eu interdum mauris. Ut congue ipsum ex, eu egestas nisi ullamcorper vitae. Suspendisse potenti. Suspendisse blandit placerat ex, vitae suscipit purus dapibus id. Nulla facilisi. Mauris porttitor diam eu orci sodales tempor. Donec rutrum sit amet quam vitae congue. Donec sit amet convallis risus. Quisque mi augue, mattis lacinia mollis non, iaculis sit amet lectus.</p>
+                <div class="c-tab-content-box-wp">
+                  <h3>Checkboxes</h3>
+                  <input id="check1" type="checkbox" checked="checked"/>
+                  <label for="check1">First checkbox</label><br>
+                  <input id="check2" type="checkbox"/>
+                  <label for="check2">Second checkbox</label><br>
+                  <input id="check3" type="checkbox" disabled="disabled"/>
+                  <label for="check3">Disabled</label><br>
+                  <input id="check4" type="checkbox" disabled="disabled" checked="checked"/>
+                  <label for="check4">Disabled & checked</label><br>
+                </div>
+              </div>
+            </div>
+
+            <div class="c-tab">
+              <input type="radio" id="tab-2" name="tab-group-1">
+              <label class="c-label" for="tab-2">Radio Buttons</label>
+              <div class="c-tab-content">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu magna. Pellentesque sit amet vestibulum ex, eget placerat metus. Sed vel sagittis massa, eu interdum mauris. Ut congue ipsum ex, eu egestas nisi ullamcorper vitae. Suspendisse potenti. Suspendisse blandit placerat ex, vitae suscipit purus dapibus id. Nulla facilisi. Mauris porttitor diam eu orci sodales tempor. Donec rutrum sit amet quam vitae congue. Donec sit amet convallis risus. Quisque mi augue, mattis lacinia mollis non, iaculis sit amet lectus.</p>
+                <div class="c-tab-content-box-wp">
+                  <h3>Radio Buttons</h3>
+                  <input id="radio1" name="radio" type="radio" checked="checked"/>
+                  <label for="radio1">First radio</label><br>
+                  <input id="radio2" name="radio" type="radio"/>
+                  <label for="radio2">Second radio</label><br>
+                  <input id="radio3" type="radio" disabled="disabled"/>
+                  <label for="radio3">Disabled</label><br>
+                  <input id="radio4" type="radio" disabled="disabled" checked="checked"/>
+                  <label for="radio4">Disabled & checked</label><br>
+                </div>
+              </div>
+            </div>
+
+            <div class="c-tab">
+              <input type="radio" id="tab-3" name="tab-group-1">
+              <label class="c-label" for="tab-3">Cards</label>
+              <div class="c-tab-content">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu magna. Pellentesque sit amet vestibulum ex, eget placerat metus. Sed vel sagittis massa, eu interdum mauris. Ut congue ipsum ex, eu egestas nisi ullamcorper vitae. Suspendisse potenti. Suspendisse blandit placerat ex, vitae suscipit purus dapibus id. Nulla facilisi. Mauris porttitor diam eu orci sodales tempor. Donec rutrum sit amet quam vitae congue. Donec sit amet convallis risus. Quisque mi augue, mattis lacinia mollis non, iaculis sit amet lectus.</p>
+                <div class="c-tab-content-lis-wp">
+                  <ul>
+                    <li class="c-tab-content-lis-box">
+                      <div class="c-tab-content-lis-box-img">
+                        <img src="./images/user.png" alt="avatar">
+                      </div>
+                      <div class="c-tab-content-lis-box-info">
+                        <h3>Headline</h3>
+                        <p>Lorem ipsum dolor sit amet...</p>
+                      </div>
+                      <div class="c-tab-content-lis-box-check">
+                        <input id="card1" type="checkbox"/>
+                        <label for="card1" class="material-icons"></label>
+                      </div>
+                    </li>
+                    <li class="c-tab-content-lis-box">
+                      <div class="c-tab-content-lis-box-img">
+                        <img src="./images/user.png" alt="avatar">
+                      </div>
+                      <div class="c-tab-content-lis-box-info">
+                        <h3>Headline</h3>
+                        <p>Lorem ipsum dolor sit amet...</p>
+                      </div>
+                      <div class="c-tab-content-lis-box-check">
+                        <input id="card2" type="checkbox"/>
+                        <label for="card2" class="material-icons"></label>
+                      </div>
+                    </li>
+                    <li class="c-tab-content-lis-box">
+                      <div class="c-tab-content-lis-box-img">
+                        <img src="./images/user.png" alt="avatar">
+                      </div>
+                      <div class="c-tab-content-lis-box-info">
+                        <h3>Headline</h3>
+                        <p>Lorem ipsum dolor sit amet...</p>
+                      </div>
+                      <div class="c-tab-content-lis-box-check">
+                        <input id="card3" type="checkbox"/>
+                        <label for="card3" class="material-icons"></label>
+                      </div>
+                    </li>
+                    <li class="c-tab-content-lis-box">
+                      <div class="c-tab-content-lis-box-img">
+                        <img src="./images/user.png" alt="avatar">
+                      </div>
+                      <div class="c-tab-content-lis-box-info">
+                        <h3>Headline</h3>
+                        <p>Lorem ipsum dolor sit amet...</p>
+                      </div>
+                      <div class="c-tab-content-lis-box-check">
+                        <input id="card4" type="checkbox"/>
+                        <label for="card4" class="material-icons"></label>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
         </div>
       </main>
     </div>

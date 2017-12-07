@@ -1,5 +1,155 @@
 /* Practice Layout */
+body {
+  color: #787878;
+}
 
-.trash{
-	color: black;
+.trash {
+  color: black;
+}
+
+.c-container {
+  background: #efefef;
+  box-shadow: 25px 25px 90px -32px rgba(0, 0, 0, 1);
+  max-width: 700px;
+  position: relative;
+}
+
+.c-tab {
+}
+
+.c-tab .c-label {
+  background: #e5e5e5;
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.c-tab .c-label:hover {
+  background: #d8d8d8;
+}
+
+.c-tab [type=radio] {
+  display: none;
+}
+
+.c-tab-content {
+  box-sizing: border-box;
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+[type=radio]:checked ~ .c-label {
+  background: #fff;
+  color: #000;
+  transition: background 0.1s, color 0.1s;
+}
+
+[type=radio]:checked ~ .c-label ~ .c-tab-content {
+  display: block;
+  position: relative;
+}
+
+.c-tab-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.c-tab-content-box-wp {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  margin: 10px;
+  min-width: 146px;
+  padding: 10px;
+  width: 30%;
+}
+
+.c-tab-content-box-wp label {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.c-tab-content-box-wp h3 {
+  padding-top: 0;
+}
+
+.c-tab-content-box-wp [type=radio] {
+  display: inline;
+}
+
+.c-tab-content-lis-wp ul {
+  list-style: none;
+  padding: 0;
+}
+
+.c-tab-content-lis-box {
+  display: flex;
+  padding: 10px;
+}
+
+.c-tab-content-lis-box:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.c-tab-content-lis-box-img {
+  width: 30%;
+  display: inline-block;
+}
+
+.c-tab-content-lis-box-img img {
+  width: 100%;
+}
+
+.c-tab-content-lis-box-info {
+  width: 60%;
+  display: inline-block;
+}
+
+.c-tab-content-lis-box-check {
+  padding-top: 20px;
+  width: 10%;
+}
+
+.material-icons:hover {
+  background-color: #e6e6e6;
+}
+
+.material-icons:before {
+  content: "check_box_outline_blank";
+  color: #e6e6e6;
+}
+
+.c-tab-content-lis-box-check [type=checkbox] {
+  display: none;
+}
+
+.c-tab-content-lis-box-check [type=checkbox]:checked ~ .material-icons:before {
+  content: "check_box";
+  color: #2aa1c0;
+}
+/*********************************/
+/*            DESKTOP            */
+/*********************************/
+@media (min-width: 768px) {
+  .c-container {
+    display: inline-flex;
+    height: 100vh;
+    width: 50%;
+  }
+
+  .c-tab {
+    display: inline-block;
+  }
+
+  [type=radio]:checked ~ .c-label ~ .c-tab-content {
+    left: 0;
+    position: absolute;
+  }
 }
