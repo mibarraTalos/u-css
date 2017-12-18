@@ -1,0 +1,183 @@
+.r-footer {
+  width: 100%;
+}
+
+.r-footer-content-wp {
+  background-color: #e91e63;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 50px;
+}
+
+.r-footer-content-wp ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.r-footer-content-wp ul li {
+  width: 100%;
+}
+
+.r-footer-content-box {
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.r-footer-content-box-title {
+  cursor: pointer;
+  position: relative;
+}
+
+.r-footer-content-box-title h2 {
+  font-size: 1em;
+}
+
+.r-heading::after {
+  cursor: pointer;
+  content: '\E5CF';
+  font-family: 'Material Icons';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.r-footer-content-box-info-wp {
+  display: none;
+}
+
+.r-footer-content-box-icons-wp {
+  display: none;
+}
+
+.r-show-info {
+  display: block;
+}
+
+.r-footer-content-box-title input[type=checkbox]:checked ~ .r-footer-content-box-info-wp {
+  display: block;
+}
+
+.r-footer-content-box-icons-wp i {
+  font-size: 1.3em;
+}
+
+.r-footer-content-box-calendar-wp {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.r-footer-content-box-calendar-day {
+  align-self: flex-start;
+}
+
+.r-footer-content-box-calendar-time {
+  align-self: flex-end;
+}
+
+.r-footer-content-box-carousel li {
+  display: inline;
+  box-sizing: border-box;
+}
+
+.r-footer-content-box-carousel li img {
+  padding-bottom: 5px;
+}
+
+.r-footer-links-wp {
+  background-color: #e91e63;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.r-footer-links-wp ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  max-width: 300px;
+  padding: 0;
+
+}
+
+.r-footer-links-wp ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .r-footer-content-wp, .r-footer-links-wp {
+    background-color: #448aff;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .r-footer-content-wp, .r-footer-links-wp {
+    background-color: #6600cc;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .r-footer-content-wp, .r-footer-links-wp {
+    background-color: #ff6600;
+  }
+
+  .r-footer-content-wp ul {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .r-footer-content-wp ul li:not(.r-footer-content-box-calendar-wp) {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 30px;
+  }
+
+  .r-footer-content-box-info-wp {
+    display: block;
+  }
+
+  .r-footer-content-box-info-wp ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .r-footer-content-box-icons-wp {
+    display: block;
+  }
+
+  .r-heading::after {
+    content: ' ';
+  }
+
+  .r-footer-content-box-info-wp ul li:not(.r-footer-content-box-calendar-wp) {
+    width: 25%;
+    padding: 0;
+  }
+
+  .r-footer-links-wp {
+    padding: 80px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .r-footer-content-wp, .r-footer-links-wp {
+    background-color: #e91e63;
+  }
+
+  .r-footer-content-wp ul li:not(.r-footer-content-box-calendar-wp):not(.r-footer-content-box-calendar-wp) {
+    width: 25%;
+  }
+
+  .r-footer-content-box-carousel li img {
+    width: 100%;
+  }
+}

@@ -3,3 +3,12 @@
 .trash{
 	color: black;
 }
+
+.page-content {
+  padding: 0;
+}
+
+.r-container {
+  margin: 0 auto;
+  max-width: 1220px;
+}
