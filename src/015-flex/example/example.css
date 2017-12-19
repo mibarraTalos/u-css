@@ -3,3 +3,168 @@
 .trash{
 	color: black;
 }
+
+.page-content {
+  padding: 0;
+}
+
+.f-header {
+  background-image: url(./images/image.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+
+.f-content-wp ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: -5em;
+  padding: 0;
+  width: 100%;
+}
+
+.f-card {
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 16px 5px;
+  width: 350px;
+}
+
+.f-card:hover {
+  cursor: pointer;
+}
+
+.f-card:hover img {
+  transform: scale(1.1);
+}
+
+.f-card-img-wp {
+  height: 250px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.f-card-img-wp img {
+  max-width: 100%;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.f-card-info {
+  color: #787878;
+  font-size: 16px;
+  padding: 0.5em;
+}
+
+.f-card-options {
+  border-top: 2px solid #ddd;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.f-card-options ul {
+  list-style: none;
+  margin: 0;
+  width: 50%;
+}
+
+.f-card-options ul li a {
+  color: #aaa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.f-card-options ul li:not(:last-child)::after {
+  content: ',';
+}
+
+.f-card-read-more {
+  font-size: 16px;
+}
+
+.f-footer {
+  background-color: #9370DB;
+  width: 100%;
+}
+
+.f-footer-wp {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.f-footer-box {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+}
+
+.f-footer-box h1 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.f-footer-info {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.f-footer-info p {
+  color: #fff;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  .f-footer-wp {
+    padding: 20px;
+  }
+
+  .f-footer-info {
+    display: block;
+  }
+
+  .f-footer-info li {
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding-bottom: 8px;
+  }
+
+  .f-footer-info li span {
+    float: right;
+  }
+
+  .f-footer-box {
+    width: 50%;
+  }
+
+  .f-footer-box h1 {
+    text-align: left;
+  }
+}
+
+/* Desktop 1200px */
+@media (min-width: 1200px) {
+  .f-footer-box {
+    width: 25%;
+  }
+
+  .f-content-wp {
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+}
