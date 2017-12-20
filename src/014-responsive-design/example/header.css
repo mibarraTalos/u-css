@@ -91,6 +91,10 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .r-nav {
+    display: block;
+  }
+
   .r-nav-wp {
     align-items: center;
     box-sizing: border-box;
