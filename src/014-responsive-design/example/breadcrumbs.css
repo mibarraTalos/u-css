@@ -44,3 +44,12 @@
 }
 
 
+.r-breadcrumbs-pagination a {
+  border-radius: 50%;
+}
+
+.r-breadcrumbs-pagination a:hover {
+  background-color: rgba(158,158,158,.2);
+}
+
+
