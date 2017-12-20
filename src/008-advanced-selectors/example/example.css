@@ -51,6 +51,11 @@ section > h2 {
   text-transform: uppercase;
 }
 
+.as-content-wp li > a:hover {
+  color: #fbc2d4;
+  cursor: pointer;
+}
+
 .as-currencies li {
   background-color: #ebebeb;
   border-bottom: 1px solid #fbc2d4;
@@ -60,6 +65,11 @@ section > h2 {
 
 .as-currencies li:last-child {
   border: none;
+}
+
+.as-currencies li:hover {
+  background-color: #fbc2d4;
+  cursor: pointer;
 }
 
 .as-avatar-wp {
@@ -92,6 +102,11 @@ section > h2 {
   margin: 0;
   padding:0;
   text-decoration: none;
+}
+
+.as-avatar-content a:hover {
+  color: #fbc2d4;
+  cursor: pointer;
 }
 
 .as-avatar-currency {
