@@ -3,3 +3,23 @@
 .trash{
 	color: black;
 }
+
+.b-header {
+  background-color: #eceeef;
+  box-sizing: border-box;
+  padding: 64px 15px;
+  margin-bottom: 32px;
+}
+
+.b-header h1 {
+  color: #787878;
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.b-header p {
+  color: #787878;
+  font-size: 1.45rem;
+  font-weight: 300;
+}
